@@ -1,0 +1,21 @@
+.filter-label {
+    display: flex;
+
+}
+
+.filter-input {
+    height: 40px;
+    width: 400px;
+    outline: none;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+    border: solid 2px rgb(180, 179, 179);
+
+    &:focus {
+        border-color: rgb(84, 78, 165);
+    }
+}
